@@ -1,0 +1,82 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\SurendraCollection\\FeedMart\\FeedMart_Seller_08_12_2022\\FeedMart_Seller\\build\\firebase_core\\intermediates\\res\\merged\\release\\values-sl\\values-sl.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\indian 5\\.gradle\\caches\\transforms-2\\files-2.1\\8cb93f0aba07d4046ae4b3a5ced36761\\jetified-play-services-basement-18.0.0\\res\\values-sl\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "135",
+                        "endOffsets": "330"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "139",
+                        "endOffsets": "190"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\indian 5\\.gradle\\caches\\transforms-2\\files-2.1\\139147582493ab4e55da2e898aa47b9b\\core-1.6.0\\res\\values-sl\\values-sl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "195",
+                        "endColumns": "100",
+                        "endOffsets": "291"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\SurendraCollection\\FeedMart\\FeedMart_Seller_08_12_2022\\FeedMart_Seller\\build\\firebase_core\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-sl\\values-sl.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\indian 5\\.gradle\\caches\\transforms-2\\files-2.1\\8cb93f0aba07d4046ae4b3a5ced36761\\jetified-play-services-basement-18.0.0\\res\\values-sl\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "135",
+                        "endOffsets": "330"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "139",
+                        "endOffsets": "190"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\indian 5\\.gradle\\caches\\transforms-2\\files-2.1\\139147582493ab4e55da2e898aa47b9b\\core-1.6.0\\res\\values-sl\\values-sl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "195",
+                        "endColumns": "100",
+                        "endOffsets": "291"
+                    }
+                }
+            ]
+        }
+    ]
+}

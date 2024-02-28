@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\SurendraCollection\\FeedMart\\FeedMart_Seller_08_12_2022\\FeedMart_Seller\\build\\flutter_plugin_android_lifecycle\\intermediates\\res\\merged\\release\\values-hr\\values-hr.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\indian 5\\.gradle\\caches\\transforms-2\\files-2.1\\139147582493ab4e55da2e898aa47b9b\\core-1.6.0\\res\\values-hr\\values-hr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\SurendraCollection\\FeedMart\\FeedMart_Seller_08_12_2022\\FeedMart_Seller\\build\\flutter_plugin_android_lifecycle\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-hr\\values-hr.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\indian 5\\.gradle\\caches\\transforms-2\\files-2.1\\139147582493ab4e55da2e898aa47b9b\\core-1.6.0\\res\\values-hr\\values-hr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

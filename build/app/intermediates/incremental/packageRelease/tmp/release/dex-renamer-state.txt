@@ -1,0 +1,4 @@
+#Wed Jul 19 11:33:13 IST 2023
+base.0=D\:\\SurendraCollection\\FeedMart\\FeedMart_Seller_08_12_2022\\FeedMart_Seller\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

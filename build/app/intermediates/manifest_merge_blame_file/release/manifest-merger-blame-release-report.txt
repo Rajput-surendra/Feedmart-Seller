@@ -1,0 +1,526 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.feedmart.seller"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:4:5-67
+11-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:8:5-68
+12-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:8:22-65
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:9:5-79
+13-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:9:22-76
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->[:file_picker] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:7:5-80
+14-->[:file_picker] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:7:22-77
+15
+16    <queries>
+16-->[:file_picker] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:9:5-15:15
+17        <intent>
+17-->[:file_picker] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:10:9-14:18
+18            <action android:name="android.intent.action.GET_CONTENT" />
+18-->[:file_picker] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:11:13-72
+18-->[:file_picker] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:11:21-69
+19
+20            <data android:mimeType="*/*" />
+20-->[:file_picker] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-44
+20-->[:file_picker] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:19-41
+21        </intent>
+22    </queries>
+23
+24    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+24-->[:flutter_local_notifications] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:7:5-81
+24-->[:flutter_local_notifications] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:7:22-78
+25    <uses-permission android:name="android.permission.VIBRATE" />
+25-->[:flutter_local_notifications] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:8:5-66
+25-->[:flutter_local_notifications] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:8:22-63
+26    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+26-->[:flutter_local_notifications] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:9:5-81
+26-->[:flutter_local_notifications] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:9:22-78
+27    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+27-->[:flutter_local_notifications] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:10:5-79
+27-->[:flutter_local_notifications] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:10:22-76
+28    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+28-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\a5d111ca8606741268705c256999f6a8\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:26:5-77
+28-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\a5d111ca8606741268705c256999f6a8\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:26:22-74
+29    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+29-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\a5d111ca8606741268705c256999f6a8\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:29:5-82
+29-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\a5d111ca8606741268705c256999f6a8\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:29:22-79
+30    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+30-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\606938c4d2b3b1803f6c857966d7d980\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:25:5-79
+30-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\606938c4d2b3b1803f6c857966d7d980\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:25:22-76
+31    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+31-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4cc22ded31cd4cf1e3d8b912c4c26b0f\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:26:5-110
+31-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4cc22ded31cd4cf1e3d8b912c4c26b0f\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:26:22-107
+32
+33    <application
+33-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:6:5-44:19
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.8.0] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\398af965c08b173343e3f99dd8f5188c\core-1.8.0\AndroidManifest.xml:24:18-86
+35        android:icon="@mipmap/ic_launcher"
+35-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:7:9-43
+36        android:label="FEED MART Seller"
+36-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:8:9-41
+37        android:usesCleartextTraffic="true" >
+37-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:9:9-44
+38        <activity
+38-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:11:9-38:20
+39            android:name="com.feedmart.seller.MainActivity"
+39-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:13:13-60
+40            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+40-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:14:13-163
+41            android:exported="true"
+41-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:12:13-36
+42            android:hardwareAccelerated="true"
+42-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:15:13-47
+43            android:launchMode="singleTop"
+43-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:16:13-43
+44            android:theme="@style/LaunchTheme"
+44-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:17:13-47
+45            android:windowSoftInputMode="adjustResize" >
+45-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:18:13-55
+46
+47            <!--
+48                 Specifies an Android theme to apply to this Activity as soon as
+49                 the Android process has started. This theme is visible to the user
+50                 while the Flutter UI initializes. After that, this theme continues
+51                 to determine the Window background behind the Flutter UI.
+52            -->
+53            <meta-data
+53-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:23:13-25:57
+54                android:name="io.flutter.embedding.android.NormalTheme"
+54-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:24:17-72
+55                android:resource="@style/NormalTheme" />
+55-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:25:17-54
+56            <!--
+57                 Displays an Android View that continues showing the launch screen
+58                 Drawable until Flutter paints its first frame, then this splash
+59                 screen fades out. A splash screen is useful to avoid any visual
+60                 gap between the end of Android's launch screen and the painting of
+61                 Flutter's first frame.
+62            -->
+63            <meta-data
+63-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:31:13-33:66
+64                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+64-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:32:17-81
+65                android:resource="@drawable/launch_background" />
+65-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:33:17-63
+66
+67            <intent-filter>
+67-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:34:13-37:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:35:17-69
+68-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:35:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:36:17-77
+70-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:36:27-74
+71            </intent-filter>
+72        </activity>
+73        <!--
+74             Don't delete the meta-data below.
+75             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+76        -->
+77        <meta-data
+77-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:41:9-43:33
+78            android:name="flutterEmbedding"
+78-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:42:13-44
+79            android:value="2" />
+79-->D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\android\app\src\main\AndroidManifest.xml:43:13-30
+80
+81        <service
+81-->[:firebase_auth] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+82            android:name="com.google.firebase.components.ComponentDiscoveryService"
+82-->[:firebase_auth] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:8:18-89
+83            android:directBootAware="true"
+83-->[com.google.firebase:firebase-common:20.1.2] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\f72f1972faa857fc6e98c5294d74c458\jetified-firebase-common-20.1.2\AndroidManifest.xml:35:13-43
+84            android:exported="false" >
+84-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\a5d111ca8606741268705c256999f6a8\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:55:13-37
+85            <meta-data
+85-->[:firebase_auth] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+86                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+86-->[:firebase_auth] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[:firebase_auth] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+88            <meta-data
+88-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:34:13-36:85
+89                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+89-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:35:17-128
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:36:17-82
+91            <meta-data
+91-->[:firebase_core] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+92                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+92-->[:firebase_core] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[:firebase_core] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+94            <meta-data
+94-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\a5d111ca8606741268705c256999f6a8\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:56:13-58:85
+95                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+95-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\a5d111ca8606741268705c256999f6a8\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:57:17-119
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\a5d111ca8606741268705c256999f6a8\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:58:17-82
+97            <meta-data
+97-->[com.google.firebase:firebase-datatransport:18.1.6] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\cd82cf0067d0eb84e9980d217ee8c3b8\jetified-firebase-datatransport-18.1.6\AndroidManifest.xml:28:13-30:85
+98                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+98-->[com.google.firebase:firebase-datatransport:18.1.6] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\cd82cf0067d0eb84e9980d217ee8c3b8\jetified-firebase-datatransport-18.1.6\AndroidManifest.xml:29:17-115
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-datatransport:18.1.6] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\cd82cf0067d0eb84e9980d217ee8c3b8\jetified-firebase-datatransport-18.1.6\AndroidManifest.xml:30:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:67:13-69:85
+101                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+101-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:68:17-109
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:69:17-82
+103            <meta-data
+103-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\606938c4d2b3b1803f6c857966d7d980\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:31:13-33:85
+104                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+104-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\606938c4d2b3b1803f6c857966d7d980\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:32:17-139
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\606938c4d2b3b1803f6c857966d7d980\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:33:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-installations:17.0.2] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\21d20096dc3a93efc0a61fec82226f48\jetified-firebase-installations-17.0.2\AndroidManifest.xml:18:13-20:85
+107                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+107-->[com.google.firebase:firebase-installations:17.0.2] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\21d20096dc3a93efc0a61fec82226f48\jetified-firebase-installations-17.0.2\AndroidManifest.xml:19:17-127
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-installations:17.0.2] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\21d20096dc3a93efc0a61fec82226f48\jetified-firebase-installations-17.0.2\AndroidManifest.xml:20:17-82
+109        </service>
+110        <service
+110-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:12:9-15:72
+111            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+111-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:13:13-107
+112            android:exported="false"
+112-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:14:13-37
+113            android:permission="android.permission.BIND_JOB_SERVICE" />
+113-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:15:13-69
+114        <service
+114-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:16:9-22:19
+115            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+115-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:17:13-97
+116            android:exported="false" >
+116-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:18:13-37
+117            <intent-filter>
+117-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:19:13-21:29
+118                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+118-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:20:17-78
+118-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:20:25-75
+119            </intent-filter>
+120        </service>
+121
+122        <receiver
+122-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:24:9-31:20
+123            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+123-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:25:13-98
+124            android:exported="true"
+124-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:26:13-36
+125            android:permission="com.google.android.c2dm.permission.SEND" >
+125-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:27:13-73
+126            <intent-filter>
+126-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:28:13-30:29
+127                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+127-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:29:17-81
+127-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:29:25-78
+128            </intent-filter>
+129        </receiver>
+130
+131        <provider
+131-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:39:9-43:38
+132            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+132-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:40:13-102
+133            android:authorities="com.feedmart.seller.flutterfirebasemessaginginitprovider"
+133-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:41:13-88
+134            android:exported="false"
+134-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:42:13-37
+135            android:initOrder="99" />
+135-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:43:13-35
+136        <provider
+136-->[:image_picker_android] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:8:9-16:20
+137            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+137-->[:image_picker_android] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:9:13-82
+138            android:authorities="com.feedmart.seller.flutter.image_provider"
+138-->[:image_picker_android] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:10:13-74
+139            android:exported="false"
+139-->[:image_picker_android] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:11:13-37
+140            android:grantUriPermissions="true" >
+140-->[:image_picker_android] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:12:13-47
+141            <meta-data
+141-->[:image_picker_android] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:13:13-15:75
+142                android:name="android.support.FILE_PROVIDER_PATHS"
+142-->[:image_picker_android] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:14:17-67
+143                android:resource="@xml/flutter_image_picker_file_paths" />
+143-->[:image_picker_android] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:15:17-72
+144        </provider>
+145
+146        <activity
+146-->[:url_launcher_android] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:8:9-11:74
+147            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+147-->[:url_launcher_android] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:9:13-74
+148            android:exported="false"
+148-->[:url_launcher_android] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:10:13-37
+149            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+149-->[:url_launcher_android] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:11:13-71
+150
+151        <receiver
+151-->[:flutter_local_notifications] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:13:9-15:40
+152            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+152-->[:flutter_local_notifications] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:14:13-97
+153            android:exported="false" />
+153-->[:flutter_local_notifications] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:15:13-37
+154        <receiver
+154-->[:flutter_local_notifications] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:16:9-25:20
+155            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+155-->[:flutter_local_notifications] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:17:13-101
+156            android:exported="false" >
+156-->[:flutter_local_notifications] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:18:13-37
+157            <intent-filter>
+157-->[:flutter_local_notifications] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:19:13-24:29
+158                <action android:name="android.intent.action.BOOT_COMPLETED" />
+158-->[:flutter_local_notifications] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:20:17-79
+158-->[:flutter_local_notifications] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:20:25-76
+159                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+159-->[:flutter_local_notifications] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:21:17-84
+159-->[:flutter_local_notifications] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:21:25-81
+160                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+160-->[:flutter_local_notifications] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:22:17-82
+160-->[:flutter_local_notifications] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:22:25-79
+161                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+161-->[:flutter_local_notifications] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:23:17-82
+161-->[:flutter_local_notifications] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:23:25-79
+162            </intent-filter>
+163        </receiver>
+164        <receiver
+164-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\a5d111ca8606741268705c256999f6a8\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:32:9-39:20
+165            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+165-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\a5d111ca8606741268705c256999f6a8\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:33:13-78
+166            android:exported="true"
+166-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\a5d111ca8606741268705c256999f6a8\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:34:13-36
+167            android:permission="com.google.android.c2dm.permission.SEND" >
+167-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\a5d111ca8606741268705c256999f6a8\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:35:13-73
+168            <intent-filter>
+168-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:28:13-30:29
+169                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+169-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:29:17-81
+169-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:29:25-78
+170            </intent-filter>
+171        </receiver>
+172        <!--
+173             FirebaseMessagingService performs security checks at runtime,
+174             but set to not exported to explicitly avoid allowing another app to call it.
+175        -->
+176        <service
+176-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\a5d111ca8606741268705c256999f6a8\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:45:9-52:19
+177            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+177-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\a5d111ca8606741268705c256999f6a8\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:46:13-82
+178            android:directBootAware="true"
+178-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\a5d111ca8606741268705c256999f6a8\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:47:13-43
+179            android:exported="false" >
+179-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\a5d111ca8606741268705c256999f6a8\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:48:13-37
+180            <intent-filter android:priority="-500" >
+180-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:19:13-21:29
+181                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+181-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:20:17-78
+181-->[:firebase_messaging] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:20:25-75
+182            </intent-filter>
+183        </service>
+184        <service
+184-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\35b87136dc8c58308b55cf56926fb055\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:29:9-35:19
+185            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+185-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\35b87136dc8c58308b55cf56926fb055\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:30:13-103
+186            android:exported="false" >
+186-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\35b87136dc8c58308b55cf56926fb055\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:31:13-37
+187            <meta-data
+187-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\35b87136dc8c58308b55cf56926fb055\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:32:13-34:39
+188                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+188-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\35b87136dc8c58308b55cf56926fb055\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:33:17-94
+189                android:value="cct" />
+189-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\35b87136dc8c58308b55cf56926fb055\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:34:17-36
+190        </service>
+191        <service
+191-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\c0456063203f8dac8000d30fad7d01de\jetified-transport-runtime-3.1.7\AndroidManifest.xml:26:9-30:19
+192            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+192-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\c0456063203f8dac8000d30fad7d01de\jetified-transport-runtime-3.1.7\AndroidManifest.xml:27:13-117
+193            android:exported="false"
+193-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\c0456063203f8dac8000d30fad7d01de\jetified-transport-runtime-3.1.7\AndroidManifest.xml:28:13-37
+194            android:permission="android.permission.BIND_JOB_SERVICE" >
+194-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\c0456063203f8dac8000d30fad7d01de\jetified-transport-runtime-3.1.7\AndroidManifest.xml:29:13-69
+195        </service>
+196
+197        <receiver
+197-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\c0456063203f8dac8000d30fad7d01de\jetified-transport-runtime-3.1.7\AndroidManifest.xml:32:9-34:40
+198            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+198-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\c0456063203f8dac8000d30fad7d01de\jetified-transport-runtime-3.1.7\AndroidManifest.xml:33:13-132
+199            android:exported="false" />
+199-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\c0456063203f8dac8000d30fad7d01de\jetified-transport-runtime-3.1.7\AndroidManifest.xml:34:13-37
+200
+201        <activity
+201-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:27:9-44:20
+202            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+202-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:28:13-80
+203            android:excludeFromRecents="true"
+203-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:29:13-46
+204            android:exported="true"
+204-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:30:13-36
+205            android:launchMode="singleTask"
+205-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:31:13-44
+206            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+206-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:32:13-72
+207            <intent-filter>
+207-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:33:13-43:29
+208                <action android:name="android.intent.action.VIEW" />
+208-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:34:17-69
+208-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:34:25-66
+209
+210                <category android:name="android.intent.category.DEFAULT" />
+210-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:36:17-76
+210-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:36:27-73
+211                <category android:name="android.intent.category.BROWSABLE" />
+211-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:37:17-78
+211-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:37:27-75
+212
+213                <data
+213-->[:file_picker] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-44
+214                    android:host="firebase.auth"
+215                    android:path="/"
+216                    android:scheme="genericidp" />
+217            </intent-filter>
+218        </activity>
+219        <activity
+219-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:45:9-62:20
+220            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+220-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:46:13-79
+221            android:excludeFromRecents="true"
+221-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:47:13-46
+222            android:exported="true"
+222-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:48:13-36
+223            android:launchMode="singleTask"
+223-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:49:13-44
+224            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+224-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:50:13-72
+225            <intent-filter>
+225-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:51:13-61:29
+226                <action android:name="android.intent.action.VIEW" />
+226-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:34:17-69
+226-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:34:25-66
+227
+228                <category android:name="android.intent.category.DEFAULT" />
+228-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:36:17-76
+228-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:36:27-73
+229                <category android:name="android.intent.category.BROWSABLE" />
+229-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:37:17-78
+229-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4702a91ff665b7614b8a03c612e2c740\jetified-firebase-auth-21.0.8\AndroidManifest.xml:37:27-75
+230
+231                <data
+231-->[:file_picker] D:\SurendraCollection\FeedMart\FeedMart_Seller_08_12_2022\FeedMart_Seller\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-44
+232                    android:host="firebase.auth"
+233                    android:path="/"
+234                    android:scheme="recaptcha" />
+235            </intent-filter>
+236        </activity>
+237
+238        <provider
+238-->[com.google.firebase:firebase-common:20.1.2] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\f72f1972faa857fc6e98c5294d74c458\jetified-firebase-common-20.1.2\AndroidManifest.xml:26:9-31:39
+239            android:name="com.google.firebase.provider.FirebaseInitProvider"
+239-->[com.google.firebase:firebase-common:20.1.2] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\f72f1972faa857fc6e98c5294d74c458\jetified-firebase-common-20.1.2\AndroidManifest.xml:27:13-77
+240            android:authorities="com.feedmart.seller.firebaseinitprovider"
+240-->[com.google.firebase:firebase-common:20.1.2] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\f72f1972faa857fc6e98c5294d74c458\jetified-firebase-common-20.1.2\AndroidManifest.xml:28:13-72
+241            android:directBootAware="true"
+241-->[com.google.firebase:firebase-common:20.1.2] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\f72f1972faa857fc6e98c5294d74c458\jetified-firebase-common-20.1.2\AndroidManifest.xml:29:13-43
+242            android:exported="false"
+242-->[com.google.firebase:firebase-common:20.1.2] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\f72f1972faa857fc6e98c5294d74c458\jetified-firebase-common-20.1.2\AndroidManifest.xml:30:13-37
+243            android:initOrder="100" />
+243-->[com.google.firebase:firebase-common:20.1.2] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\f72f1972faa857fc6e98c5294d74c458\jetified-firebase-common-20.1.2\AndroidManifest.xml:31:13-36
+244
+245        <activity
+245-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\c36a533f036aba5b87965a04dc8f3b23\jetified-play-services-auth-19.2.0\AndroidManifest.xml:23:9-27:75
+246            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+246-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\c36a533f036aba5b87965a04dc8f3b23\jetified-play-services-auth-19.2.0\AndroidManifest.xml:24:13-93
+247            android:excludeFromRecents="true"
+247-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\c36a533f036aba5b87965a04dc8f3b23\jetified-play-services-auth-19.2.0\AndroidManifest.xml:25:13-46
+248            android:exported="false"
+248-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\c36a533f036aba5b87965a04dc8f3b23\jetified-play-services-auth-19.2.0\AndroidManifest.xml:26:13-37
+249            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+249-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\c36a533f036aba5b87965a04dc8f3b23\jetified-play-services-auth-19.2.0\AndroidManifest.xml:27:13-72
+250        <!--
+251            Service handling Google Sign-In user revocation. For apps that do not integrate with
+252            Google Sign-In, this service will never be started.
+253        -->
+254        <service
+254-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\c36a533f036aba5b87965a04dc8f3b23\jetified-play-services-auth-19.2.0\AndroidManifest.xml:33:9-37:51
+255            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+255-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\c36a533f036aba5b87965a04dc8f3b23\jetified-play-services-auth-19.2.0\AndroidManifest.xml:34:13-89
+256            android:exported="true"
+256-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\c36a533f036aba5b87965a04dc8f3b23\jetified-play-services-auth-19.2.0\AndroidManifest.xml:35:13-36
+257            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+257-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\c36a533f036aba5b87965a04dc8f3b23\jetified-play-services-auth-19.2.0\AndroidManifest.xml:36:13-107
+258            android:visibleToInstantApps="true" />
+258-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\c36a533f036aba5b87965a04dc8f3b23\jetified-play-services-auth-19.2.0\AndroidManifest.xml:37:13-48
+259
+260        <receiver
+260-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4cc22ded31cd4cf1e3d8b912c4c26b0f\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:29:9-33:20
+261            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+261-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4cc22ded31cd4cf1e3d8b912c4c26b0f\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:30:13-85
+262            android:enabled="true"
+262-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4cc22ded31cd4cf1e3d8b912c4c26b0f\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:31:13-35
+263            android:exported="false" >
+263-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4cc22ded31cd4cf1e3d8b912c4c26b0f\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:32:13-37
+264        </receiver>
+265
+266        <service
+266-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4cc22ded31cd4cf1e3d8b912c4c26b0f\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:35:9-38:40
+267            android:name="com.google.android.gms.measurement.AppMeasurementService"
+267-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4cc22ded31cd4cf1e3d8b912c4c26b0f\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:36:13-84
+268            android:enabled="true"
+268-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4cc22ded31cd4cf1e3d8b912c4c26b0f\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:37:13-35
+269            android:exported="false" />
+269-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4cc22ded31cd4cf1e3d8b912c4c26b0f\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:38:13-37
+270        <service
+270-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4cc22ded31cd4cf1e3d8b912c4c26b0f\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:39:9-43:72
+271            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+271-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4cc22ded31cd4cf1e3d8b912c4c26b0f\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:40:13-87
+272            android:enabled="true"
+272-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4cc22ded31cd4cf1e3d8b912c4c26b0f\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:41:13-35
+273            android:exported="false"
+273-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4cc22ded31cd4cf1e3d8b912c4c26b0f\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:42:13-37
+274            android:permission="android.permission.BIND_JOB_SERVICE" />
+274-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\4cc22ded31cd4cf1e3d8b912c4c26b0f\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:43:13-69
+275
+276        <activity
+276-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\723587fcca1bcc1b794c23fc9b3ff2d6\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+277            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+277-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\723587fcca1bcc1b794c23fc9b3ff2d6\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+278            android:exported="false"
+278-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\723587fcca1bcc1b794c23fc9b3ff2d6\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+279            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+279-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\723587fcca1bcc1b794c23fc9b3ff2d6\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+280
+281        <meta-data
+281-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\e114c91e3ce837ce96c6a744b6fb0c4b\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+282            android:name="com.google.android.gms.version"
+282-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\e114c91e3ce837ce96c6a744b6fb0c4b\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+283            android:value="@integer/google_play_services_version" />
+283-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\e114c91e3ce837ce96c6a744b6fb0c4b\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+284
+285        <uses-library
+285-->[androidx.window:window:1.0.0-beta04] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\a9318fde50fa14b998ca4f673fdf4281\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+286            android:name="androidx.window.extensions"
+286-->[androidx.window:window:1.0.0-beta04] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\a9318fde50fa14b998ca4f673fdf4281\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+287            android:required="false" />
+287-->[androidx.window:window:1.0.0-beta04] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\a9318fde50fa14b998ca4f673fdf4281\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+288        <uses-library
+288-->[androidx.window:window:1.0.0-beta04] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\a9318fde50fa14b998ca4f673fdf4281\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+289            android:name="androidx.window.sidecar"
+289-->[androidx.window:window:1.0.0-beta04] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\a9318fde50fa14b998ca4f673fdf4281\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+290            android:required="false" />
+290-->[androidx.window:window:1.0.0-beta04] C:\Users\indian 5\.gradle\caches\transforms-2\files-2.1\a9318fde50fa14b998ca4f673fdf4281\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+291    </application>
+292
+293</manifest>

@@ -1,0 +1,6 @@
+com/eshop/vendor/vendor_eshop/MainActivity.java
+ com.feedmart.seller.MainActivity
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/feedmart/seller/BuildConfig.java
+ com.feedmart.seller.BuildConfig

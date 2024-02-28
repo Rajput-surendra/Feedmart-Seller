@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\SurendraCollection\\FeedMart\\FeedMart_Seller_08_12_2022\\FeedMart_Seller\\build\\video_player_android\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-en-rXC\\values-en-rXC.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\indian 5\\.gradle\\caches\\transforms-2\\files-2.1\\9df40bfb9566008d8ed9bac38eda22bb\\core-1.7.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "203",
+                        "endOffsets": "254"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\SurendraCollection\\FeedMart\\FeedMart_Seller_08_12_2022\\FeedMart_Seller\\build\\video_player_android\\intermediates\\res\\merged\\release\\values-en-rXC\\values-en-rXC.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\indian 5\\.gradle\\caches\\transforms-2\\files-2.1\\9df40bfb9566008d8ed9bac38eda22bb\\core-1.7.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "203",
+                        "endOffsets": "254"
+                    }
+                }
+            ]
+        }
+    ]
+}
